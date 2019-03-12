@@ -1,0 +1,62 @@
+<!-- Vertical Orientation is set  with weightSum-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:orientation="vertical">
+
+    <!-- Text Displayed At Top -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/question"
+        android:layout_weight="1"
+        android:textSize="50sp"
+        android:fontFamily="@font/qalammajeed3"
+        android:gravity="center"/>
+
+    <!-- Button Used -->
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/ansA"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:textSize="50sp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/ansB"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:textSize="50sp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/score"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:textSize="78sp"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="close"
+        android:id="@+id/close"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:background="#9A9AB4"
+        android:gravity="center"/>
+
+</LinearLayout>

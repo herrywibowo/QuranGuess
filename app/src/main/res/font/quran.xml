@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/arial" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/bismillah" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/hafs" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/qalammajeed3" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/rc" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/rl" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/rr" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/rsc" />
+</font-family>

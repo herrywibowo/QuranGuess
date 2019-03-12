@@ -1,0 +1,33 @@
+<!-- Vertical Orientation is set  with weightSum-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:orientation="vertical">
+
+    <!-- Text Displayed At Top -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/ayat"
+        android:layout_weight="1"
+        android:fontFamily="@font/qalammajeed3"
+        android:textSize="30sp"
+        android:autoSizeTextType="uniform"
+        android:background="#034F55"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/arti"
+        android:layout_weight="1"
+        android:textSize="15sp"
+        android:autoSizeTextType="uniform"
+        android:background="#053AB1"
+        android:gravity="center"/>
+
+</LinearLayout>
